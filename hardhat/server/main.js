@@ -8,7 +8,6 @@ const { Web3Storage, getFilesFromPath } = require('web3.storage')
 
 // to update to addresses based on contract deployment
 const CANVAS_ABI = require('../artifacts/contracts/Canvas.sol/Canvas.json')
-// const CANVAS_ADDR = "0x80F9313b8539D263B24e463Fa51634cbF5B436f4"
 const CANVAS_ADDR = "0x041dFA6a0c96B132Fe41F01c0830ea6eA09c2b2B"
 
 const erc721_address = "0x26b19ab85180874e118cf949bac3a801cc574b3c"
@@ -29,7 +28,6 @@ const TABLE = [
 
 
 async function main() {
-  // const matic = 'https://polygon-mumbai.g.alchemy.com/v2/ZqdKZSzvX0972EJp7NzoRgdzW5dbGTi6'
   const matic = 'https://yolo-solemn-cloud.matic-testnet.discover.quiknode.pro/cb67ac97534ad4639b27eac995373f80e9fce458/';
   const provider = new ethers.providers.JsonRpcProvider(matic)
 
@@ -71,7 +69,6 @@ async function main() {
     })
     await image.writeAsync('images/nft.png')
 
-    // const token = process.env.WEB3_STORAGE_KEY
     const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGU4NUVhNjc2Q0JBZkEyYjlERTM4MDdiYWQ1NjA1QTNjMjc0NzIzYjEiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NzU4ODI0OTU1NDUsIm5hbWUiOiJNZXRhLVRlcnJpdG9yeSJ9.YpqOOAoxD8IY-fPPGji-3bbfXBgYoTSY10O5LF9OLcA'
     const storage = new Web3Storage({ token })
 
@@ -93,11 +90,9 @@ async function main() {
     const uri = `https://${met}.ipfs.dweb.link/metadata.json`
     console.log(uri)
 
-    // const url = 'https://api-eu1.tatum.io/v3/nft/mint'
     const url = 'https://nft.api.infura.io/'
 
     const headers = {
-      // 'X-Api-Key': process.env.TATUM_KEY,
       'X-Api-Key': ['1f8d28e2f2d4420c98acc5961307c8f1'],
 
       'Content-Type': 'application/json'
