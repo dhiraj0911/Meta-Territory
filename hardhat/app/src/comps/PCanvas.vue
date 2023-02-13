@@ -83,4 +83,6 @@ const click = async (x, y) => {
   .tooltip:hover:after {
     display:block;
   }
+
+
 </style>
