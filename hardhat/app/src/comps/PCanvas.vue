@@ -53,7 +53,8 @@ const click = async (x, y) => {
 
 <style>
   .artboard__row {
-    height: 20px;
+    height: 50px;
+    
   }
 
   .tooltip:hover {
@@ -78,11 +79,10 @@ const click = async (x, y) => {
     display: none;
     white-space: nowrap;
     opacity: 75%;
+    
   }
 
   .tooltip:hover:after {
     display:block;
   }
-
-
 </style>

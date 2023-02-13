@@ -10,6 +10,7 @@
     <li :tip="`Select white`" class="tooltip color-picker__item color-picker--white" @click="$emit('update:modelValue', 'white')"></li>
     <li :tip="`Select grey`" class="tooltip color-picker__item color-picker--grey" @click="$emit('update:modelValue', 'grey')"></li>
     <li :tip="`Select black`" class="tooltip color-picker__item color-picker--black" @click="$emit('update:modelValue', 'black')"></li>
+    <li :tip="`Select red`" class="tooltip color-picker__item color-picker--red" @click="$emit('update:modelValue', 'red')"></li>
   </ul>
 </template>
 
@@ -17,12 +18,14 @@
   .color-picker {
     padding: 0;
     height: 20px;
-    margin-top: 20px;
+    margin-top: -60px;
+
   }
 
   .color-picker .color-picker__item {
-    width: 20px;
-    height: 20px;
+    margin-top: 100px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
   }
 
@@ -36,4 +39,5 @@
   .color-picker--white { background-color: white; }
   .color-picker--grey { background-color: grey; }
   .color-picker--black { background-color: black; }
+  .color-picker--red { background-color: red; }
 </style>

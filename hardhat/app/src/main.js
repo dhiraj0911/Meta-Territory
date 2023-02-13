@@ -1,9 +1,7 @@
 import { ethers } from 'ethers'
 import { createApp } from 'vue'
-
 import App from '@/App'
 import { installEthers } from '@/plugin'
-
 const main = () => {
   const provider = new ethers.providers.Web3Provider(window.ethereum)
 
@@ -11,5 +9,4 @@ const main = () => {
     .use(installEthers, provider)
     .mount('#daaplace')
 }
-
 main()

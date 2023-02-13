@@ -1,4 +1,3 @@
-
 export const installEthers = {
   install (app, ethers) {
     app.provide('ethers', ethers)

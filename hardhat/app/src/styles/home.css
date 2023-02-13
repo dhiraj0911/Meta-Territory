@@ -1,0 +1,22 @@
+body {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+.title {
+  color: rgb(129, 230, 208);
+}
+
+.home{
+  border-radius: 30px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: calc(8%);
+  left: calc(5%);
+  bottom: calc(5%);
+  right: calc(5%);
+
+  /* width: 80%;
+  height: 90%; */
+  background:linear-gradient( to top right,rgba(117,117,117 ,1) 0%, rgba(33,33,33 ,1) 90%);
+	        box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
+}

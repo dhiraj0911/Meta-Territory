@@ -23,10 +23,11 @@ const real = computed(() => getHexColor[props.color])
 
 <style scoped>
   .artboard__pixel {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     background-color: v-bind(real);
+    border: 1px dotted black;
   }
 
   .red .artboard__pixel:hover { background: red }
