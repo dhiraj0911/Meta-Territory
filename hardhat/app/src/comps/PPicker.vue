@@ -18,8 +18,8 @@
   .color-picker {
     padding: 0;
     height: 20px;
-    margin-top: -60px;
-
+    margin-top: 20px;
+    
   }
 
   .color-picker .color-picker__item {

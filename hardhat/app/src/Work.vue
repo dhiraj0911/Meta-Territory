@@ -46,17 +46,17 @@ const connectToWallet = () => {
 </script>
 
 <template>
-  <div>
+  <div class="main">
     <header>
       <div class="wallet">
         <p v-if="address" class="address">{{address}}</p>
         <button v-else @click="connectToWallet()" class="connect-wallet-btn">Connect Wallet</button>
       </div>
 
-      <a title="Bidding offline" class="bidding-holder bidding-holder--offline">
+      <!-- <a title="Bidding offline" class="bidding-holder bidding-holder--offline">
         <div>Current bid:<br/> 0.075 ETH</div>
         <button disabled class="bid-button">Increase bid</button>
-      </a>
+      </a> -->
     </header>
 
     <div class="next-mint-countdown">{{count}} changes until next NFT mint</div>
@@ -67,7 +67,9 @@ const connectToWallet = () => {
         <PPicker v-model="color" />
       </div>
     </div>
-
+    <div class="image">
+       
+    </div>
     <div class="contract">
       Contract address:
       <a target="_blank" :href="`https://mumbai.polygonscan.com/address/${contractId}`">
@@ -78,6 +80,20 @@ const connectToWallet = () => {
 </template>
 
 <style>
+.main{
+  border-radius: 30px;
+  background: radial-gradient(#7F5A83, #0D324D);
+  position: absolute;
+  top: calc(5%);
+  left: calc(5%);
+  bottom: calc(5%);
+  right: calc(5%);
+  display: grid;
+  padding-top: 50px;
+  width: 90%;
+  height: 80%; 
+	box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
+}
   body {
     margin: 0;
     font-family: monospace;
@@ -138,18 +154,13 @@ const connectToWallet = () => {
   }
 
   .artboard {
-    max-width: 600px;
-    height: 600px;
+    width: 600px;
+    height: 650px;
 
     position: absolute;
-    top: 27%;
+    top: 30%;
     left:10%;
     margin: -100px 0 0 -100px;
-    background-color: antiquewhite;
-    box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
-    border-radius: 10px;
-    padding: 10px;
-
   }
 
   .bid-button {
@@ -169,7 +180,14 @@ const connectToWallet = () => {
   .bid-button:hover {
 
   }
+  img {
+    display: block;
+    height: auto;
+  }
+.img{
+  height: 700px;
 
+}
 
   .color, .color-picker {cursor: pointer;}
   .red .color-picker:hover { background-color: red; opacity:1;}
@@ -183,3 +201,4 @@ const connectToWallet = () => {
   .grey .color-picker:hover { background-color: grey; opacity:1;}
   .black .color-picker:hover { background-color: black; opacity:1;}
 </style>
+.
