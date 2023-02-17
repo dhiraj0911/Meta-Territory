@@ -29,19 +29,21 @@ export default {
 
 <template>
   <div class="nav">
-    <a href="/">Home</a> &nbsp;
-    <a href="#/about">About</a> &nbsp;
-    <a href="#/Work">Work</a>
-    <a href="" class="price">Current Meta Land</a>
+    <a class="navitems" href="/">Home</a> &nbsp;
+    <a class="navitems" href="#/about">About</a> &nbsp;
+    <a class="navitems" href="#/Work">Work</a>
+    <a  href="" class="price">Current Meta Land</a>
     <a href="" class="price2">Current Price</a>
     <component :is="currentView" />
   </div>
 </template>
 <style>
+.navitems{
+  color: #fff;
+}
 a {
   text-decoration: none;
   font-size: 25px;
-  color: linear-gradient(to right, #0D324D, #7F5A83);
   padding-left: 90px;
 }
 a:hover {

@@ -5,8 +5,7 @@
   max-width: 190vh;
 }
 body {
-  background-color: linear-gradient(to right, #0D324D, #7F5A83);
-
+  background-color: #233e58;
 }
 
 .title {
@@ -15,7 +14,7 @@ body {
 
 .home{
   border-radius: 30px;
-  background: radial-gradient(#7F5A83, #0D324D);
+  /* background: radial-gradient(#7F5A83, #0D324D); */
   position: absolute;
   top: calc(8%);
   left: calc(5%);
@@ -23,10 +22,9 @@ body {
   right: calc(5%);
   display: grid;
   padding-top: 50px;
-  
   /* width: 80%;
   height: 90%; */
-	box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
+	/* box-shadow: 1px 1px 30px rgba(33,33,33 ,1); */
 }
 /* * {
   position: relative;
@@ -74,15 +72,14 @@ body {
   padding-left: 1em;
   grid-column: 1 / -1;
   grid-row: 1;
-
   font-family: "Prata", serif;
   font-size: 8vw;
   width: 100%;
   z-index: 2;
+  
 
 
-
-  > .title-inner {
+ .title-inner {
     display: inline-block;
   }
 }
@@ -155,41 +152,20 @@ body {
 body:active * {
   animation: none !important;
 }
-.eth{
-  height: 200px;
-  position: absolute;
-  z-index: 3;
-  left: -40px;
-  transform: rotate(-20deg);
-  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-}
+
 .home__aboutwritting{
   height: 400px;
   width: 900px;
-  /* background: radial-gradient(#7F5A83, #0D324D); */
+  background: #606090;
   /* box-shadow: 1px 1px 30px rgba(33,33,33 ,1); */
   border-radius: 10%;
   position: relative;
-  margin-top: 50px; 
+  margin-top: 150px; 
   margin-left: 90px; 
   box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
-  background-image: linear-gradient(to right, #c47a89, #6a82fb);
+  /* background-image: linear-gradient(to right, #7373fa, #465290); */
   font-size: 30px;
   padding: 60px;
-}
-
-.home__developer{
-  height: 400px;
-  width: 600px;
-  background: radial-gradient(#7F5A83, #0D324D);
-  box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
-  border-radius: 10%;
-  position: relative;
-  margin-top: 50px; 
-  margin-left: 90px; 
-  background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-  font-size: 25px;
-  padding: 30px;
 }
 
 .aimg{
@@ -212,14 +188,7 @@ height: 700px;
 margin-left: 55%;
 }
 
-.pol{
-  height: 200px;
-  position: absolute;
-  z-index: 3;
-  left: -40px;
-  margin-top: 400px;
-  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-}
+
 .homa__about{
   margin-top:900px;
 }
@@ -232,40 +201,14 @@ margin-left: 55%;
   width: auto;
   margin: auto;
 }
-.four h3 {
-  width: 19ch;
-  border-right: 4px solid black;
-  margin: 2rem auto;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 1s steps(13, end), blink-caret 0.5s step-end infinite alternate;
-  color: #FFF;
-}
-@-webkit-keyframes typing {
-  from {
-      width: 0;
-  }
-}
-@-webkit-keyframes blink-caret {
-  50% {
-      border-color: transparent;
-  }
-}
 
-.file{
-  height: 150px;
-  position: absolute;
-  z-index: 3;
-  left: -40px;
-  margin-top: 700px;
-  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-}
+
 .contract {
   color: white;
   font-size: 24px;
 }
 
-.contract a {
+.contract>  a {
   padding: 0 0 0 35px;
   color: plum;
   font-size: 24px;
@@ -284,4 +227,107 @@ margin-left: 55%;
 }
 .price:hover {
   color: rgb(241, 188, 88);
+}
+.box{
+  margin-left:200px; 
+}
+.made{
+  margin-left: 10px;
+  margin-bottom: 30px;
+  color: #fff;
+  animation: text-clip 3s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.suntitle{
+  margin-top: 100%;
+  margin-left: 25%;
+  color: #fff;
+}
+.ethdiv{
+  background-color: rgba(225,225,225,0.2);
+  /* box-shadow: 0px,4px,16px, rgba(0,0,0,0.5); */
+  width:200px ;
+  height: 270px;
+  position: absolute;
+  border-radius: 30px;
+  animation: text-clip 3s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.poldiv{
+  background-color: rgba(225,225,225,0.2);
+  width:200px ;
+  height: 270px;
+  position: absolute;
+  margin-left: 300px;
+  border-radius: 30px;
+  animation: text-clip 3s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.filediv{
+  background-color: rgba(225,225,225,0.2);
+  width:200px ;
+  height: 270px;
+  position: absolute;
+  margin-left: 600px;
+  border-radius: 30px;
+  animation: text-clip 3s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.eth{
+  height: 200px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 10px;
+  animation: text-clip 5s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.pol{
+  height: 150px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 10px;
+  animation: text-clip 5s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.file{
+  height: 150px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 10px;
+  animation: text-clip 5s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.container{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.bubbles{
+  position:relative; 
+  display: flex;
+}
+.bubbles span{
+  position: relative;
+  width:15px; 
+  height: 15px;
+  background: #4fc3dc;
+  margin: 0 16px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc44,
+  0 0  50px #4fc3dc,
+  0 0 100px #4fc3dc;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(125s / var(--i));
+}
+.bubbles span:nth-child(even)
+{
+  background: #ff2d75;
+  box-shadow: 0 0 0 10px #ff2d7544,
+  0 0  50px #ff2d75,
+  0 0 100px #ff2d75;
+}
+
+@keyframes animate
+{
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+  100%{
+    transform: translateY(10vh) scale(1);
+  }
 }

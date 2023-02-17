@@ -82,7 +82,7 @@ const connectToWallet = () => {
 <style>
 .main{
   border-radius: 30px;
-  background: radial-gradient(#7F5A83, #0D324D);
+  background-color: rgba(225,225,225,0.2);
   position: absolute;
   top: calc(5%);
   left: calc(5%);
