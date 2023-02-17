@@ -164,6 +164,8 @@ body:active * {
   position: relative;
   margin-top: 50px; 
   margin-left: 90px; 
+  background: #3C1D70;
+  opacity: 0.7;
   font-size: 30px;
   padding: 60px;
 }
