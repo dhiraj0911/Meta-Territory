@@ -16,17 +16,21 @@
 
 <style scoped>
   .color-picker {
-    padding: 0;
-    height: 20px;
+    padding: 30px;
+    /* height: 30px; */
     margin-top: 20px;
-    
+    padding-left: 58px;
+    /* display:absolute;
+    justify-content: center; */
   }
 
   .color-picker .color-picker__item {
-    margin-top: 100px;
-    width: 30px;
-    height: 30px;
+    /* margin-top: 0px; */
+    width: 35px;
+    height: 35px;
     display: inline-block;
+    justify-items: center;
+    border: 1px dotted #000;
   }
 
   .color-picker--red { background-color: red; }

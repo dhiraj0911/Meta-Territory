@@ -8,7 +8,7 @@
       <div class="title">
         <div class="title-inner">
           <div class="cafe">
-            <div class="cafe-inner">Meta'</div>
+            <div class="cafe-inner">Meta</div>
           </div>
           <div class="mozart">
             <div class="mozart-inner">Territory</div>
@@ -18,7 +18,7 @@
       <div class="image">
         <img
           class="img"
-          src="https://static.coincodex.com/en/resources/images//admin/news/facebooks-virtual/facebook-horizon.png"
+          src="https://global-uploads.webflow.com/62b8a1a0f2e5e851da4bdc62/6362c1aec761f6c589644b3a_mark-visual-1.webp"
           alt
         />
       </div>

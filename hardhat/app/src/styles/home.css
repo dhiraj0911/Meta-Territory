@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 190vh;
+}
 body {
-  background-image: linear-gradient(to right, #0D324D, #7F5A83);
+  background-color: linear-gradient(to right, #0D324D, #7F5A83);
+
 }
 
 .title {
@@ -110,7 +117,8 @@ body {
 .cafe,
 .mozart {
   animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
-
+  color: white;
+  font-family: 'Gilda Display', serif;
 }
 
 
@@ -164,11 +172,26 @@ body:active * {
   position: relative;
   margin-top: 50px; 
   margin-left: 90px; 
-  background: #3C1D70;
-  opacity: 0.7;
+  box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
+  background-image: linear-gradient(to right, #c47a89, #6a82fb);
   font-size: 30px;
   padding: 60px;
 }
+
+.home__developer{
+  height: 400px;
+  width: 600px;
+  background: radial-gradient(#7F5A83, #0D324D);
+  box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
+  border-radius: 10%;
+  position: relative;
+  margin-top: 50px; 
+  margin-left: 90px; 
+  background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+  font-size: 25px;
+  padding: 30px;
+}
+
 .aimg{
   margin-top: -570px;
   margin-left: 65%;
@@ -182,9 +205,11 @@ body:active * {
 img {
   display: block;
   height: auto;
+  /* align-items: right; */
 }
 .img{
 height: 700px;
+margin-left: 55%;
 }
 
 .pol{
@@ -234,4 +259,29 @@ height: 700px;
   left: -40px;
   margin-top: 700px;
   animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.contract {
+  color: white;
+  font-size: 24px;
+}
+
+.contract a {
+  padding: 0 0 0 35px;
+  color: plum;
+  font-size: 24px;
+}
+
+.price {
+  margin-left: 750px;
+  color: palevioletred;
+  padding: 0 0 0 0;
+}
+.price2 {
+  color: palevioletred;
+}
+.price2:hover {
+  color: rgb(241, 188, 88);
+}
+.price:hover {
+  color: rgb(241, 188, 88);
 }

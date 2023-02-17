@@ -32,19 +32,21 @@ export default {
     <a href="/">Home</a> &nbsp;
     <a href="#/about">About</a> &nbsp;
     <a href="#/Work">Work</a>
+    <a href="" class="price">Current Meta Land</a>
+    <a href="" class="price2">Current Price</a>
     <component :is="currentView" />
   </div>
 </template>
 <style>
 a {
   text-decoration: none;
-  font-size: 20px;
-  color: #90ddfe;
+  font-size: 25px;
+  color: linear-gradient(to right, #0D324D, #7F5A83);
   padding-left: 90px;
 }
 a:hover {
-  
-  color: #fff;
+
+  color: rgb(241, 188, 88);
 }
 .nav{
   margin-top: 30px;
