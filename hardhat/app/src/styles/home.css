@@ -201,8 +201,56 @@ margin-left: 55%;
   width: auto;
   margin: auto;
 }
+<<<<<<< Updated upstream
 
 
+=======
+.four h3 {
+  width: 19ch;
+  border-right: 4px solid black;
+  margin: 2rem auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 1s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+  color: #FFF;
+}
+@-webkit-keyframes typing {
+  from {
+      width: 0;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
+.eth{
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+  left: -40px;
+  transform: rotate(-20deg);
+  margin-top: 300px;
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.pol{
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+  left: -40px;
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.file{
+  height: 150px;
+  position: absolute;
+  z-index: 3;
+  left: -40px;
+  margin-top: 700px;
+  transform: rotate(-20deg);  
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+>>>>>>> Stashed changes
 .contract {
   color: white;
   font-size: 24px;

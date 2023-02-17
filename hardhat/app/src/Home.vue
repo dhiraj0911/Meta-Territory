@@ -38,6 +38,7 @@
       </div>
     </div>
     <div class="home" id="app">
+<<<<<<< Updated upstream
       <div class="box">
         <h1 class="made">Made with...</h1>
         <div class="ethdiv">
@@ -54,6 +55,11 @@
         </div>
       </div>
 
+=======
+      <img class="pol" src="./assets/polygon.png" />
+      <img class="eth" src="./assets/Ethereum_logo_translucent.jpg" />
+      <img class="file" src="./assets/filecoin-fil-logo.png" />
+>>>>>>> Stashed changes
       <div class="title">
         <div class="title-inner">
           <div class="cafe">

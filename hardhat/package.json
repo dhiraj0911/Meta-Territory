@@ -11,6 +11,7 @@
   "dependencies": {
     "@eth-optimism/hardhat-ovm": "^0.2.4",
     "@nomiclabs/hardhat-etherscan": "^3.0.3",
-    "@openzeppelin/contracts": "^4.5.0"
+    "@openzeppelin/contracts": "^4.5.0",
+    "coingecko-api": "^1.0.10"
   }
 }
