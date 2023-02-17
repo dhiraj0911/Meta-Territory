@@ -67,8 +67,8 @@ const connectToWallet = () => {
         <PPicker v-model="color" />
       </div>
     </div>
-    <div class="image">
-       
+    <div class="workImage">
+       <img class="work" src="https://cdni.iconscout.com/illustration/premium/thumb/experiencing-metaverse-technology-5379645-4501853.png?f=webp"/>
     </div>
     <div class="contract">
       Contract address:
@@ -180,13 +180,9 @@ const connectToWallet = () => {
   .bid-button:hover {
 
   }
-  img {
-    display: block;
-    height: auto;
-  }
-.img{
-  height: 700px;
-
+.work{
+  margin-left: 900px;
+  height: 800px;
 }
 
   .color, .color-picker {cursor: pointer;}

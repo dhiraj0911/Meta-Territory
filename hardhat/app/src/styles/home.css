@@ -16,7 +16,7 @@ body {
   right: calc(5%);
   display: grid;
   padding-top: 50px;
-
+  
   /* width: 80%;
   height: 90%; */
 	box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
@@ -144,34 +144,6 @@ body {
   display: inline-block;
 }
 
-.image {
-  grid-row: 1;
-  grid-column: 2;
-  margin-left: -2rem;
-  opacity: 0.7;
-
-  animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
-
-  @keyframes image-in {
-    from {
-      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-    to {
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-}
-.img{
-  height: 700px;
-  
-}
-// Replay animation!
 body:active * {
   animation: none !important;
 }
@@ -181,5 +153,83 @@ body:active * {
   z-index: 3;
   left: -40px;
   transform: rotate(-20deg);
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.home__aboutwritting{
+  height: 400px;
+  width: 900px;
+  /* background: radial-gradient(#7F5A83, #0D324D); */
+  /* box-shadow: 1px 1px 30px rgba(33,33,33 ,1); */
+  border-radius: 10%;
+  position: relative;
+  margin-top: 50px; 
+  margin-left: 90px; 
+  font-size: 30px;
+  padding: 60px;
+}
+.aimg{
+  margin-top: -570px;
+  margin-left: 65%;
+  height: 600px;
+}
+.img{
+  margin-top: -400px;
+  margin-left: 460px;
 }
 
+img {
+  display: block;
+  height: auto;
+}
+.img{
+height: 700px;
+}
+
+.pol{
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+  left: -40px;
+  margin-top: 400px;
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.homa__about{
+  margin-top:900px;
+}
+.wrapper.four {
+  font-size: 2rem;
+  font-family: "Play", sans-serif;
+}
+.four .type{
+  /* padding: 2rem 1rem; */
+  width: auto;
+  margin: auto;
+}
+.four h3 {
+  width: 19ch;
+  border-right: 4px solid black;
+  margin: 2rem auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 1s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+  color: #FFF;
+}
+@-webkit-keyframes typing {
+  from {
+      width: 0;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
+
+.file{
+  height: 150px;
+  position: absolute;
+  z-index: 3;
+  left: -40px;
+  margin-top: 700px;
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}

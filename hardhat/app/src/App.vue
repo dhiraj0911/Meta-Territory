@@ -29,12 +29,10 @@ export default {
 
 <template>
   <div class="nav">
-    <center>
-      <a href="/">Home</a> &nbsp;
-      <a href="#/Work">Work</a>
-      <a href="#/about">About</a> &nbsp;
-      <component :is="currentView" />
-    </center>
+    <a href="/">Home</a> &nbsp;
+    <a href="#/about">About</a> &nbsp;
+    <a href="#/Work">Work</a>
+    <component :is="currentView" />
   </div>
 </template>
 <style>
@@ -45,7 +43,7 @@ a {
   padding-left: 90px;
 }
 a:hover {
-
+  
   color: #fff;
 }
 .nav{
