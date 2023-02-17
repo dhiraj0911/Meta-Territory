@@ -29,6 +29,13 @@
         <span style="--i:33;"></span>
         <span style="--i:12;"></span>
         <span style="--i:11;"></span>
+        <span style="--i:29;"></span>
+        <span style="--i:34;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:33;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:11;"></span>
         <span style="--i:19;"></span>
         <span style="--i:15;"></span>
         <span style="--i:11;"></span>
@@ -38,7 +45,6 @@
       </div>
     </div>
     <div class="home" id="app">
-<<<<<<< Updated upstream
       <div class="box">
         <h1 class="made">Made with...</h1>
         <div class="ethdiv">
@@ -46,20 +52,15 @@
           <h1 class="suntitle">Ethream</h1>
         </div>
         <div class="poldiv">
-          <img class="pol" src="https://cryptologos.cc/logos/polygon-matic-logo.png" />
+          <img class="pol" src="./assets/polygon-matic-logo.png" />
           <h1 class="suntitle">Polygon</h1>
         </div>
         <div class="filediv">
-          <img class="file" src="https://cryptologos.cc/logos/filecoin-fil-logo.png" />
+          <img class="file" src="./assets/filecoin-fil-logo.png" />
           <h1 class="suntitle">Filecoin</h1>
         </div>
       </div>
 
-=======
-      <img class="pol" src="./assets/polygon.png" />
-      <img class="eth" src="./assets/Ethereum_logo_translucent.jpg" />
-      <img class="file" src="./assets/filecoin-fil-logo.png" />
->>>>>>> Stashed changes
       <div class="title">
         <div class="title-inner">
           <div class="cafe">
@@ -73,7 +74,7 @@
       <div class="image">
         <img
           class="img"
-          src="https://global-uploads.webflow.com/62b8a1a0f2e5e851da4bdc62/6362c1aec761f6c589644b3a_mark-visual-1.webp"
+          src="./assets/background.jpg"
           alt
         />
       </div>

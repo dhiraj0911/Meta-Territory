@@ -54,12 +54,12 @@ const click = async (x, y) => {
 <style>
   .artboard__row {
     height: 50px;
-    
+    padding-left: 70px;
   }
 
   .tooltip:hover {
     z-index:1;
-    color:#8325f7;
+    /* color:#8325f7; */
     position:relative;
   }
 
@@ -79,7 +79,7 @@ const click = async (x, y) => {
     display: none;
     white-space: nowrap;
     opacity: 75%;
-    
+
   }
 
   .tooltip:hover:after {

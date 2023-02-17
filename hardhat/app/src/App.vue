@@ -32,8 +32,8 @@ export default {
     <a class="navitems" href="/">Home</a> &nbsp;
     <a class="navitems" href="#/about">About</a> &nbsp;
     <a class="navitems" href="#/Work">Work</a>
-    <a  href="" class="price">Current Meta Land</a>
-    <a href="" class="price2">Current Price</a>
+    <a  href="" class="price">Current bid: 0.75 ETH</a>
+    <a href="" class="price2">ETH: $1,703.74</a>
     <component :is="currentView" />
   </div>
 </template>

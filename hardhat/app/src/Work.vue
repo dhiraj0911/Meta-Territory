@@ -59,7 +59,7 @@ const connectToWallet = () => {
       </a> -->
     </header>
 
-    <div class="next-mint-countdown">{{count}} changes until next NFT mint</div>
+    <div class="next-mint-countdown">{{count}} plots remaining!!</div>
 
     <div class="artboard">
       <div :class="{[color]: true}">
@@ -91,7 +91,7 @@ const connectToWallet = () => {
   display: grid;
   padding-top: 50px;
   width: 90%;
-  height: 80%; 
+  height: 80%;
 	box-shadow: 1px 1px 30px rgba(33,33,33 ,1);
 }
   body {
