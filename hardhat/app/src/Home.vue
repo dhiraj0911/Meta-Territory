@@ -49,7 +49,7 @@
         <h1 class="made">Made with...</h1>
         <div class="ethdiv">
           <img class="eth" src="./assets/Ethereum_logo_translucent.jpg" />
-          <h1 class="suntitle">Ethream</h1>
+          <h1 class="suntitle">Ethereum</h1>
         </div>
         <div class="poldiv">
           <img class="pol" src="./assets/polygon-matic-logo.png" />
